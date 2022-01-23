@@ -1,0 +1,1122 @@
+/* 公共样式开始 */
+html {
+    min-width: 1000px;
+}
+
+body {
+    font: 12px Helvetica, Arial, sans-serif;
+    line-height: 1.62;
+}
+
+.wrapper {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section {
+    padding: 20px 0;
+    min-height: 200px;
+}
+
+.section:nth-child(2n-1) {
+    background: #f7f7f7;
+}
+
+.area_Left {
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+
+}
+
+.area_Right {
+    float: right;
+    width: 265px;
+    margin-left: 30px;
+}
+
+.area_Main {
+    overflow: hidden;
+}
+
+.com_title {
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    margin-bottom: 12px;
+    line-height: 150%;
+}
+
+.com_title span {
+    color: black;
+    font: 12px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+a {
+    color: #37a;
+}
+
+a:hover {
+    color: #fff;
+    background: #37a;
+}
+
+h2 {
+    font: 15px Arial, Helvetica, sans-serif;
+}
+.star {
+    margin-bottom: 4px;
+}
+
+.star .star50 {
+    width: 55px;
+    height: 11px;
+    background: url("../image/ic_rating_s@2x.png") no-repeat 0 0/55px;
+    display: inline-block;
+}
+
+.star .star45 {
+    width: 55px;
+    height: 11px;
+    background: url("../image/ic_rating_s@2x.png") no-repeat 0 -11px/55px;
+    display: inline-block;
+}
+
+.star .star40 {
+    width: 55px;
+    height: 11px;
+    background: url("../image/ic_rating_s@2x.png") no-repeat 0 -22px/55px;
+    display: inline-block;
+}
+
+.star .num {
+    color: #e09015;
+    margin-left: 4px;
+}
+/* 公共样式结束 */
+
+
+/* 标题开始 */
+.title {
+    background: #EDF4EC;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.title h1 {
+    display: inline-block;
+    height: 20px;
+    width: 102px;
+    margin: 7px 13px;
+}
+
+.title h1 a {
+    width: 102px;
+    height: 0;
+    background: url("../image/logo_1.png") no-repeat 0 0/100%;
+    padding-top: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+/* 标题结束 */
+
+/* 标题1开始 */
+.title1 {
+    width: 1080px;
+    margin: 0 auto 25px
+}
+
+.title1 .img {
+    width: 73px;
+    height: 24px;
+    margin-top: 4px;
+    margin-right: 24px;
+}
+
+.title1 .img img {
+    width: 100%;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.title1 .inp {
+    border: 1px solid #c3c3c3;
+    width: 270px;
+    height: 30px;
+    position: relative;
+
+}
+
+.title1 .inp input {
+    border: none;
+    line-height: 30px;
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+    box-sizing: border-box;
+    color: #111;
+    font-size: 13px;
+}
+
+.title1 .inp input::placeholder {
+    color: #ccc;
+}
+
+.title1 .inp .icon {
+    width: 30px;
+    color: #ccc;
+    position: absolute;
+    right: -5px;
+    top: 6px;
+    cursor: pointer;
+}
+
+.title1 .right ul {
+    height: 21px;
+    margin-top: 6px
+}
+
+.title1 .right ul li {
+    margin-right: 14px;
+    float: left;
+}
+
+.title1 .right ul a {
+    width: 40px;
+    height: 0px;
+    display: inline-block;
+    padding-top: 20px;
+    overflow: hidden;
+    background: url("../image/anony_nav_logo.png") no-repeat left top;
+}
+
+.title1 .right ul .type1 {
+    background-position: 0px 0px;
+}
+
+.title1 .right ul .type2 {
+    background-position: -60px 0px;
+}
+
+.title1 .right ul .type3 {
+    background-position: -120px 0px;
+}
+
+.title1 .right ul .type4 {
+    background-position: -180px 0px;
+}
+
+.title1 .right ul .type5 {
+    background-position: -240px 0px;
+}
+
+.title1 .right ul .type6 {
+    background-position: -300px 0px;
+}
+
+.title1 .right ul .type7 {
+    background-position: -360px 0px;
+}
+
+.title1 .right ul .type8 {
+    background-position: -423px 0px;
+}
+
+/* 标题1结束 */
+
+/* 登陆区域开始 */
+.area_login {
+    height: 304px;
+    background: url("../image/bg_1.jpg") no-repeat calc(50% - 305px) top/contain #edf4ed;
+}
+
+.area_login .load {
+    width: 150px;
+    height: 120px;
+    margin-left: 475px;
+    margin-top: 92px;
+    display: inline-block;
+    position: relative;
+}
+
+.area_login .load span {
+    font-size: 25px;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+
+.area_login .load .load_app {
+    color: #fff;
+    background: #00B51D;
+    border-radius: 2px;
+    font-size: 12px;
+    display: inline-block;
+    width: 114.6px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 18px;
+}
+
+.area_login .load .obj_load {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+}
+
+.area_login .load .obj_load .qr_code {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #48aa0d;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.area_login .load .obj_load .qr_codeInfo {
+    width: 180px;
+    background: #fff;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 20px;
+    color: #666;
+    box-sizing: border-box;
+}
+
+.area_login .load .obj_load .qr_codeInfo .qr_codeBig {
+    width: 140px;
+    margin: 0 auto;
+    display: block;
+}
+
+.area_login .load .obj_load .qr_codeInfo span {
+    font-size: 13px;
+    text-align: center;
+    margin: 13px 0px;
+}
+
+.area_login .load .obj_load:hover .qr_codeInfo {
+    display: block;
+}
+
+.area_login .login {
+    height: 300px;
+
+}
+
+/* 登陆区域结束 */
+
+/* 热点区域开始 */
+.area_hotPint .title_img {
+    height: 90px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.area_hotPint .title_img img {
+    width: 100%;
+}
+
+.area_hotPint .area_Main .albums {
+    font-size: 12px;
+}
+
+.area_hotPint .area_Main .albums ul {
+    width: 370px;
+}
+
+.area_hotPint .area_Main .albums li {
+    margin: 0 10px 10px 0;
+    display: inline-block;
+}
+
+.area_hotPint .area_Main .albums img {
+    width: 170px;
+    height: 170px;
+    display: block;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+}
+
+.area_hotPint .area_Main .albums span {
+    color: #999;
+}
+
+.area_hotPint .area_Main .notes {
+    width: 275px;
+    font-size: 12px;
+}
+
+.area_hotPint .area_Main .notes .span1 {
+    color: #999;
+    display: block;
+}
+
+.area_hotPint .area_Main .notes .span2 {
+    color: #666;
+}
+
+.area_hotPint .area_Main .notes li {
+    margin-top: 12px;
+}
+
+.area_hotPint .area_Main .notes li:first-child {
+    margin-top: 0;
+}
+
+.area_hotPint .area_Right li {
+    margin-bottom: 15px;
+}
+
+.area_hotPint .area_Right li:last-child {
+    margin: 0;
+}
+
+.area_hotPint .area_Right li a {
+    font-size: 14px;
+}
+
+.area_hotPint .area_Right li span {
+    font-size: 13px;
+    color: #999;
+    display: block;
+}
+
+/* 热点区域结束 */
+
+/* 豆瓣时间区域开始 */
+.area_time .area_Left a {
+    color: #494949;
+    font-size: 24px;
+}
+
+.area_time .area_Left a:hover {
+    color: #fff;
+}
+
+.area_time .area_Main .com_title {
+    margin-top: 8px;
+}
+
+.area_time .area_Main li {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 60px 30px 0;
+}
+
+.area_time .area_Main li .img {
+    width: 100px;
+    height: 141px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.area_time .area_Main li .img img {
+    width: 100%;
+    display: block;
+}
+
+.area_time .area_Main li a {
+    color: #333333;
+    font-size: 13px;
+    line-height: 1.38;
+}
+
+.area_time .area_Main li a:hover {
+    color: #fff;
+}
+
+.area_time .area_Main li span {
+    width: 100%;
+    display: block;
+    color: #999999;
+    margin-top: 10px;
+    font-size: 12px;
+
+}
+
+.area_time .area_Main li .img:after {
+    content: '';
+    background: url("../image/ic_audio_w@2x.png") no-repeat 0 0/100%;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 12px;
+    height: 12px;
+}
+
+/* 豆瓣时间区域结束 */
+
+/* 豆瓣电影区域开始 */
+.area_film .area_Left h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: -5px;
+}
+
+.area_film .area_Left li {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.area_film .area_Left li .new_type {
+    display: inline-block;
+    position: relative;
+}
+
+.area_film .area_Left li .new_type:after {
+    content: "";
+    background: url("../image/new_menu.gif") no-repeat 0 0/100%;
+    width: 17px;
+    height: 7px;
+    position: absolute;
+    right: -20px;
+    bottom: 7px;
+}
+
+.area_film .area_Right ul {
+    margin-bottom: 30px;
+}
+
+.area_film .area_Right li {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 4px;
+    width: 4em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.area_film .area_Right .index_li {
+    display: list-item;
+    list-style-type: decimal;
+    list-style-position: inside;
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+}
+
+.area_film .area_Main li {
+    width: 130px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.area_film .area_Main li .img {
+    margin-bottom: 15px;
+    height: 145px;
+}
+
+.area_film .area_Main li .img a {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.area_film .area_Main li .img img {
+    width: 100%;
+    display: block;
+}
+
+.area_film .area_Main li a {
+    color: #333;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.area_film .area_Main li a:hover {
+    color: #fff;
+}
+
+.area_film .area_Main li button {
+    color: #fff;
+    padding: 2px 10px;
+    background: #1c8bd0;
+    border-radius: 2px;
+}
+
+.area_film .area_Main li button:hover {
+    background: #047fcb;
+}
+
+/* 豆瓣电影区域结束 */
+
+/* 豆瓣小组区域开始 */
+.area_group .area_Left h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: -5px;
+}
+
+.area_group .area_Left li {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.area_group .area_Left li .new_type {
+    display: inline-block;
+    position: relative;
+}
+
+.area_group .area_Left li .new_type:after {
+    content: "";
+    background: url("../image/new_menu.gif") no-repeat 0 0/100%;
+    width: 17px;
+    height: 7px;
+    position: absolute;
+    right: -20px;
+    bottom: 7px;
+}
+
+.area_group .area_Right .group-cate {
+    margin-bottom: 10px;
+}
+
+.area_group .area_Right ul li.cate-label {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.area_group .area_Right ul li.cate-label a {
+    color: #333;
+}
+
+.area_group .area_Right ul li.cate-label a:hover {
+    color: #fff;
+}
+
+.area_group .area_Right ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.area_group .area_Main li {
+    width: 248px;
+    margin-right: 30px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.area_group .area_Main li:nth-child(2n) {
+    margin-right: 0;
+}
+
+.area_group .area_Main li .img {
+    display: block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.area_group .area_Main li img {
+    width: 48px;
+    display: block;
+}
+
+.area_group .area_Main li .desc {
+    overflow: hidden;
+}
+
+.area_group .area_Main li .desc a {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.area_group .area_Main li .desc span {
+    display: block;
+    color: #999;
+}
+
+/* 豆瓣小组区域结束 */
+
+/* 豆瓣读书区域开始 */
+.area_book .area_Left h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: -5px;
+}
+
+.area_book a {
+    color: #4a2f14;
+}
+
+.area_book a:hover {
+    color: #fff;
+}
+
+.area_book .area_Left ul {
+    margin-bottom: 30px;
+}
+
+.area_book .area_Left li {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.area_book .area_Left li .new_type {
+    display: inline-block;
+    position: relative;
+}
+
+.area_book .area_Left li .new_type:after {
+    content: "";
+    background: url("../image/new_menu.gif") no-repeat 0 0/100%;
+    width: 17px;
+    height: 7px;
+    position: absolute;
+    right: -20px;
+    bottom: 7px;
+}
+
+.area_book .area_Left .icon .lnk_icon {
+    display: inline-block;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.area_book .area_Left .icon .lnk_icon i {
+    background: url("../image/app_icons_50_10.jpg") no-repeat 0 0;
+    height: 50px;
+    width: 50px;
+    display: block;
+    box-shadow: 1px 1px 2px #999;
+    border-radius: 10px;
+}
+
+.area_book .area_Left .icon a {
+    display: inline-block;
+}
+
+.area_book .area_Right .book_cate {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.area_book .area_Right .book_cate ul {
+    margin-left: -10px;
+}
+
+.area_book .area_Right .book_cate:last-child {
+    border-bottom: none
+}
+
+.area_book .area_Right li {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.area_book .area_Right li.label {
+    color: #999;
+}
+
+.area_book .area_Main li {
+    width: 130px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.area_book .area_Main li .img {
+    margin-bottom: 15px;
+    height: 145px;
+}
+
+.area_book .area_Main li .img a {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.area_book .area_Main li .img img {
+    width: 100%;
+    display: block;
+}
+
+.area_book .area_Main li .desc {
+    width: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.area_book .area_Main li .desc a {
+    font-size: 13px;
+}
+
+.area_book .area_Main li .desc span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+
+.area_book .area_Main li .desc button {
+    color: #fff;
+    background: #999a95;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 2px 10px;
+    line-height: 1.62;
+}
+
+.area_book .area_Main li .desc button:hover {
+    background: #878882;
+}
+/* 豆瓣读书区域结束 */
+
+/* 豆瓣音乐区域开始 */
+.area_music .area_Left h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: -5px;
+}
+.area_music .area_Left h2 a{
+    color: #f38c00;
+}
+.area_music .area_Left h2 a:hover{
+    color: #fff;
+}
+.area_music a {
+    color: #4a2f14;
+}
+
+.area_music a:hover {
+    color: #fff;
+}
+
+.area_music .area_Left ul {
+    margin-bottom: 30px;
+}
+
+.area_music .area_Left li {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.area_music .area_Left .icon{
+    margin-top: 15px;
+}
+.area_music .area_Left .icon .lnk_icon {
+    display: inline-block;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.area_music .area_Left .icon .lnk_icon i {
+    background: url("../image/app_icons_50_10.jpg") no-repeat 0 0;
+    height: 50px;
+    width: 50px;
+    display: block;
+    box-shadow: 1px 1px 2px #999;
+    border-radius: 10px;
+}
+.area_music .area_Left .icon .lnk_icon i.lnk_icon1{
+    background-position-x: -250px;
+}
+.area_music .area_Left .icon .lnk_icon i.lnk_icon2{
+    background-position-x: -50px;
+}
+
+.area_music .area_Left .icon a {
+    display: inline-block;
+}
+.area_music .area_Right li{
+    margin-bottom: 16px;
+}
+.area_music .area_Right li .index{
+    margin-right: 10px;
+    float: left;
+}
+.area_music .area_Right li .img{
+    float: left;
+    margin-right: 10px;
+}
+.area_music .area_Right li .img a{
+    display: inline-block;
+    position: relative;
+}
+.area_music .area_Right li .img img{
+    display: block;
+}
+.area_music .area_Right li .img a div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.area_music .area_Right li .img a i{
+    width: 100%;
+    height: 100%;
+    background: rgba(2, 2, 2,0.8);
+    display: block;
+}
+.area_music .area_Right li .img a div img{
+    position: absolute;
+    top: 19px;
+    left: 21px;
+}
+.area_music .area_Right li .img a:hover .hide{
+    display: block;
+}
+.area_music .area_Right li .desc{
+    overflow: hidden;
+}
+.area_music .area_Right li .desc span{
+    display: block;
+    color: #999;
+}
+.area_music .area_Right li .desc a{
+    margin-bottom: 4px;
+    display: inline-block;
+}
+.area_music .area_Main ul{
+    margin-bottom: 10px;
+}
+.area_music .area_Main li {
+    width: 130px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.area_music .area_Main li .img {
+    margin-bottom: 5px;
+    height: 80px;
+}
+
+.area_music .area_Main li .img a {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+.area_music .area_Main li .img img {
+    width: 100%;
+    display: block;
+}
+.area_music .area_Main li .index{
+    margin-bottom: 4px;
+}
+.area_music .area_Main li .img2 {
+    margin-bottom: 5px;
+}
+
+.area_music .area_Main li .img2 a {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.area_music .area_Main li .img2 img {
+    width: 100%;
+    display: block;
+}
+.area_music .area_Main li .img2 i{
+    background: url("../image/timeline-player-cover@2x.png") no-repeat 0 0/100%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+/* 豆瓣音乐区域结束 */
+
+/* 豆瓣斗品区域开始 */
+.area_doupin .area_Left h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: -5px;
+}
+.area_doupin .area_Left h2 a{
+    color: #1f9432;
+}
+.area_doupin .area_Left h2 a:hover{
+    color: #fff;
+}
+.area_doupin .area_Right .img a img{
+    width: 265px;
+    display: block;
+}
+.area_doupin .area_Right .img a img:hover{
+    opacity: .8;
+}
+.area_doupin .area_Right .img .desc{
+    font-size: 14px;
+    margin: 5px 0 10px 0;
+}
+.area_doupin .area_Right .img{
+    margin-bottom: 15px;
+}
+.area_doupin .area_Right li{
+    margin-bottom: 10px;
+}
+.area_doupin .area_Right li .name{
+    margin-top: 14px;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+.area_doupin .area_Right li .num{
+    color: #6A6A6A;
+}
+.area_doupin .area_Main li{
+    width: 240px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.area_doupin .area_Main li .img img{
+    display: block;
+    width: 240px;
+}
+.area_doupin .area_Main li .img img:hover{
+    opacity: .8;
+}
+.area_doupin .area_Main li .desc{
+    margin-top: 10px;
+}
+.area_doupin .area_Main li .desc1{
+    overflow: hidden;
+}
+.area_doupin .area_Main li .desc a{
+    font-size: 16px;
+}
+.area_doupin .area_Main li .desc span{
+    float: right;
+    font-size: 16px;
+    color: #E55457;
+}
+/* 豆瓣斗品区域结束 */
+
+/* 豆瓣同城区域开始 */
+.area_city .area_Left h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: -5px;
+}
+.area_city .area_Left h2 a{
+    color:#ec5303;
+}
+.area_city .area_Left h2 a:hover{
+    color: #fff;
+}
+.area_city a {
+    color: #4a2f14;
+}
+
+.area_city a:hover {
+    color: #fff;
+}
+
+.area_city .area_Left ul {
+    margin-bottom: 30px;
+}
+
+.area_city .area_Left li {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.area_city .area_Right .group-cate {
+    margin-bottom: 10px;
+}
+
+.area_city .area_Right ul li.cate-label {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.area_city .area_Right ul li.cate-label a {
+    color: #333;
+}
+
+.area_city .area_Right ul li.cate-label a:hover {
+    color: #fff;
+}
+
+.area_city .area_Right ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.area_city .area_Main li{
+    width: 248px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.area_city .area_Main li:nth-child(2n){
+    margin-right: 0;
+}
+.area_city .area_Main li .img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.area_city .area_Main li img{
+    width: 70px;
+    display: block;
+}
+.area_city .area_Main li .desc{
+    overflow: hidden;
+}
+.area_city .area_Main li .desc a{
+    font-size: 13px;
+    line-height: 1.45;
+    color: #643;
+}
+.area_city .area_Main li .desc a:hover{
+    color: #fff;
+}
+.area_city .area_Main li .desc span{
+    display: block;
+    color: #666;
+}
+/* 豆瓣同城区域结束 */
+
+/* 豆瓣页脚区域开始 */
+.area_bottom .desc{
+    margin-top: 20px;
+    border-top: 1px dashed #dcdcdc;
+    padding: 14px 0;
+}
+.area_bottom .desc .desc1 span{
+    display: block;
+    color: #999;
+}
+.area_bottom .desc .desc1 img{
+    width: 15px;
+    vertical-align: middle;
+}
+.area_bottom .desc .desc2 li{
+    display: inline-block;
+}
+.area_bottom .desc .desc2 li::after{
+    content: " · ";
+}
+.area_bottom .desc .desc2 li:last-child::after{
+    content: "";
+}
+/* 豆瓣页脚区域结束 */
